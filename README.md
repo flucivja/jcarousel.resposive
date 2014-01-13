@@ -4,13 +4,17 @@ Plugin for sorgalla`s jCarousel (https://github.com/jsor/jcarousel) which makes 
 Documentation
 -------------
 
-Before use, [download](https://raw2.github.com/flucivja/jcarousel.resposive/master/jquery.jcarousel-responsive-plugin.js) and include this plugin into your HTML document below of jCarousel library.
+Before use:
+
+1) [Download](https://raw2.github.com/flucivja/jcarousel.resposive/master/jquery.jcarousel-responsive-plugin.min.js) and include this plugin into your HTML document below of jCarousel library.
 
 ```html
 <script type="text/javascript" src="/path/to/jquery.js"></script>
 <script type="text/javascript" src="/path/to/jquery.jcarousel.js"></script>
-<script type="text/javascript" src="/path/to/jquery.jcarousel-responsive-plugin.js"></script>
+<script type="text/javascript" src="/path/to/jquery.jcarousel-responsive-plugin.min.js"></script>
 ```
+
+2) [Read](http://sorgalla.com/jcarousel/docs/) documentation how to configure sorgalla`s jcarousel and make your page responsive. After those steps, you can use this plugin. If you have some problems how to do that please look at very simple [example below](#example).
 
 ### Usage
 
@@ -86,6 +90,11 @@ $('.listWrapper').jcarousel()
                   margin: 15
                 });
 ```
+
+Example
+-------
+
+You can find example on [this](http://devfl.com/jcarousel/) page.
 
 License
 -------
