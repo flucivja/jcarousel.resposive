@@ -94,7 +94,7 @@ $('.listWrapper').jcarousel()
 Example
 -------
 
-You can find example on [this](http://devfl.com/jcarousel/) page.
+You can find example on [this](http://devfl.com/responsive-jcarousel/) page.
 
 License
 -------
