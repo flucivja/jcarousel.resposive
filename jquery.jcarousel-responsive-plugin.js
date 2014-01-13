@@ -70,15 +70,11 @@
             }
             
             listWidth = parent.width();
-            itemWidth = (listWidth / numberOfVisibleItems);
+            itemWidth = (listWidth / numberOfVisibleItems) - margin;
             
-            items.css({'width'      : itemWidth - margin + (numberOfVisibleItems === items.length ? margin / (items.length - 1) : 0), 
+            items.css({'width'      : itemWidth, 
                        'marginLeft' : margin / 2,
                        'marginRight': margin / 2});
-            if(numberOfVisibleItems === items.length) {
-                items.eq(0).css({'marginLeft' : 0});
-                items.eq(items.length - 1).css( {'marginRight' : 0});
-            }    
             list.css({'width' : ((itemWidth + margin) * items.length)});
         },
         _clear: function() {
